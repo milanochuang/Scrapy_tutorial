@@ -2,7 +2,7 @@ import scrapy
 
 
 class QuotesSpider(scrapy.Spider):
-    name = '7-quotes'
+    name = 'quotes'
     allowed_domains = ['quotes.toscrape.com']
 
     custom_settings = {

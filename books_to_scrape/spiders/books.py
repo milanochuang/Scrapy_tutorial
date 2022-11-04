@@ -4,7 +4,7 @@ from books_to_scrape.page_objects import HomePage, BookCategoryPage, BookPage
 
 
 class BooksSpider(scrapy.Spider):
-    name = '4-books'
+    name = 'books'
     allowed_domains = ['books.toscrape.com']
     start_urls = ['http://books.toscrape.com/']
 
